@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+	double Diemkiemtramieng,Diemkiemtramottiet,Diemkiemtrahocky;
+	cout << "Diem Mieng = "; cin >> Diemkiemtramieng;
+	cout << "Diem Mot Tiet = "; cin >> Diemkiemtramottiet;
+	cout << "Diem Hoc Ky = "; cin >> Diemkiemtrahocky;
+	cout << "Diem TB = " << (Diemkiemtramieng+Diemkiemtramottiet*2+Diemkiemtrahocky*3)/6;
+	return 0;
+	
+}
